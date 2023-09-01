@@ -1,0 +1,41 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  id: "123451"      
+  name: "jenkins"
+  description: "CI/CD tool"
+  version: "2.1.0"
+  status: "ready to use"
+  la: "Libraries"
+  responsible: {"name":"admin","email":"admin@harman.com"}
+  architects: {"name":"architect","email":"architect@harman.com"}
+  last_review_date: "2023-09-05"
+  asil: "ASIL A"
+  permissions: "licensed"
+  price: {"currency":"USD","amount":"100"}
+  usage: ["https://www.tools.harman.com"]
+  license: "yearly license"
+  cyber: "Basic Security Measures"
+  environment: "Cloud"
+  type: "Software"
+  supported_os: "android"
+  setup_dependencies: "hardware"
+  runtime_dependencies: ["https://tools.harman.com"]
+  buildtime_dependencies: ["https://tools.harman.com"]
+  repositories: ["https://tools.harman.com"]
+  requirements: ["https://tools.harman.com"]
+  design_documents: ["https://tools.harman.com"]
+  release_notes: ["https://tools.harman.com"]
+  additional_documentation: ["https://tools.harman.com"]
+  interfaces_provided: ["https://tools.harman.com"]
+  interfaces_consumed: ["https://tools.harman.com"]
+  bug_reporting: ["https://tools.harman.com"]
+  activities: "activity"
+  annotations:
+    github.com/project-slug: ameensayedcodes/jenkins
+    backstage.io/techdocs-ref: dir:.
+    forms.office.com/feedback: https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__WiGkvpUN1pLQ0g0RlNIMVZHRDlQVlA3RDc2S05TTS4u
+spec:
+  type: tools
+  lifecycle: Onboard
+  owner: "group:default/guests"

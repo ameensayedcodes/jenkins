@@ -1,0 +1,37 @@
+site_id: "123451"
+site_name: "jenkins"
+site_description: "CI/CD tool"
+site_version: "2.1.0"
+site_status: "ready to use"
+site_la: "Libraries"
+site_responsible: {"name":"admin","email":"admin@harman.com"}
+site_architects: {"name":"architect","email":"architect@harman.com"}
+site_last_review_date: "2023-09-05"
+site_asil: "ASIL A"
+site_permissions: "licensed"
+site_price: {"currency":"USD","amount":"100"}
+site_usage: ["https://www.tools.harman.com"]
+site_license: "yearly license"
+site_cyber: "Basic Security Measures"
+site_environment: "Cloud"
+site_type: "Software"
+site_supported_os: "android"
+site_setup_dependencies: "hardware"
+site_runtime_dependencies: ["https://tools.harman.com"]
+site_buildtime_dependencies: ["https://tools.harman.com"]
+site_repositories: ["https://tools.harman.com"]
+site_requirements: ["https://tools.harman.com"]
+site_design_documents: ["https://tools.harman.com"]
+site_release_notes: ["https://tools.harman.com"]
+site_additional_documentation: ["https://tools.harman.com"]
+site_interfaces_provided: ["https://tools.harman.com"]
+site_interfaces_consumed: ["https://tools.harman.com"]
+site_bug_reporting: ["https://tools.harman.com"]
+site_activities: "activity"
+
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
